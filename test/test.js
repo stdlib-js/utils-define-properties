@@ -37,7 +37,7 @@ tape( 'main export is a function', function test( t ) {
 
 tape( 'if an environment supports `Object.defineProperties`, the exported value is the built-in value', function test( t ) {
 	var defineProperties = proxyquire( './../lib', {
-		'@stdlib/assert/has-define-properties-support': mock
+		'@stdlib/assert-has-define-properties-support': mock
 	});
 
 	t.equal( defineProperties, builtin, 'exports built-in' );
@@ -50,7 +50,7 @@ tape( 'if an environment supports `Object.defineProperties`, the exported value 
 
 tape( 'if an environment does not support `Object.defineProperties`, the exported value is a polyfill', function test( t ) {
 	var defineProperties = proxyquire( './../lib', {
-		'@stdlib/assert/has-define-properties-support': mock
+		'@stdlib/assert-has-define-properties-support': mock
 	});
 
 	t.equal( defineProperties, polyfill, 'exports polyfill' );

@@ -138,6 +138,13 @@ var greeting = person.greeting;
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   [`@stdlib/utils/define-property`][@stdlib/utils/define-property]: define (or modify) an object property.
+-   [`@stdlib/utils/define-read-only-property`][@stdlib/utils/define-read-only-property]: define a read-only property.
+
 </section>
 
 <!-- /.related -->
@@ -200,6 +207,14 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/utils-define-properties/main/LICENSE
 
 [mdn-define-properties]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperties
+
+<!-- <related-links> -->
+
+[@stdlib/utils/define-property]: https://github.com/stdlib-js/utils-define-property
+
+[@stdlib/utils/define-read-only-property]: https://github.com/stdlib-js/utils-define-read-only-property
+
+<!-- </related-links> -->
 
 </section>
 

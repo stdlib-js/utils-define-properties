@@ -1,4 +1,0 @@
-// Copyright (c) 2023 The Stdlib Authors. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
-/// <reference types="./index.d.ts" />
-import e from"https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-define-properties-support@esm/index.mjs";import t from"https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-object@esm/index.mjs";import r from"https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@esm/index.mjs";import s from"https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-property@esm/index.mjs";import i from"https://cdn.jsdelivr.net/gh/stdlib-js/error-tools-fmtprodmsg@esm/index.mjs";var n=Object.defineProperties;var o=e()?n:function(e,n){var o,d,m;if(!t(e))throw new TypeError(i("0jJ3X",e));if(!t(n))throw new TypeError(i("invalid argument. Second argument must be an object containing property descriptors. Value: `%s`.",n));for(o=r(n),m=0;m<o.length;m++)d=o[m],s(e,d,n[d]);return e};export{o as default};
-//# sourceMappingURL=index.mjs.map

@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import defineProperties from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-properties@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/utils-define-properties/tags). For example,
+
+```javascript
 import defineProperties from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-properties@v0.1.0-esm/index.mjs';
 ```
 
@@ -106,7 +111,7 @@ The `properties` parameter is an `object` whose own enumerable property values a
 <body>
 <script type="module">
 
-import defineProperties from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-properties@v0.1.0-esm/index.mjs';
+import defineProperties from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-properties@esm/index.mjs';
 
 function Person( name ) {
     if ( !(this instanceof Person) ) {

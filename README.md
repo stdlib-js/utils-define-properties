@@ -44,6 +44,11 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
+defineProperties = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-properties@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/utils-define-properties/tags). For example,
+
+```javascript
 defineProperties = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-properties@v0.1.0-umd/browser.js' )
 ```
 
@@ -56,7 +61,7 @@ var defineProperties = require( 'path/to/vendor/umd/utils-define-properties/inde
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-properties@v0.1.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-properties@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -128,7 +133,7 @@ The `properties` parameter is an `object` whose own enumerable property values a
 <!DOCTYPE html>
 <html lang="en">
 <body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-properties@v0.1.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-properties@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 

@@ -37,7 +37,7 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/assert-has-define-properties-support": "^0.1.0",
+    "@stdlib/assert-has-define-properties-support": "^0.1.1",
     "@stdlib/assert-is-object": "^0.1.1",
     "@stdlib/string-format": "^0.1.1",
     "@stdlib/utils-define-property": "^0.1.1",
@@ -47,7 +47,7 @@
     "@stdlib/assert-is-number": "^0.1.1",
     "@stdlib/assert-is-string": "^0.1.1",
     "@stdlib/bench": "^0.1.0",
-    "@stdlib/math-base-special-sqrt": "^0.1.0",
+    "@stdlib/math-base-special-sqrt": "^0.1.1",
     "@stdlib/string-from-code-point": "^0.1.0",
     "proxyquire": "^2.0.0",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",

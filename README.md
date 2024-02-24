@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import defineProperties from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-properties@esm/index.mjs';
+import defineProperties from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-properties@v0.2.1-esm/index.mjs';
 ```
 
 #### defineProperties( obj, properties )
@@ -106,7 +106,7 @@ The `properties` parameter is an `object` whose own enumerable property values a
 <body>
 <script type="module">
 
-import defineProperties from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-properties@esm/index.mjs';
+import defineProperties from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-properties@v0.2.1-esm/index.mjs';
 
 function Person( name ) {
     if ( !(this instanceof Person) ) {

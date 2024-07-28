@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/utils-define-properties",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Define (and/or modify) object properties.",
   "license": "Apache-2.0",
   "author": {
@@ -37,18 +37,18 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/assert-has-define-properties-support": "^0.2.1",
-    "@stdlib/assert-is-object": "^0.2.1",
-    "@stdlib/string-format": "^0.2.1",
-    "@stdlib/utils-define-property": "^0.2.3",
-    "@stdlib/utils-keys": "^0.2.1",
-    "@stdlib/error-tools-fmtprodmsg": "^0.2.1"
+    "@stdlib/assert-has-define-properties-support": "^0.2.2",
+    "@stdlib/assert-is-object": "^0.2.2",
+    "@stdlib/string-format": "^0.2.2",
+    "@stdlib/utils-define-property": "^0.2.4",
+    "@stdlib/utils-keys": "^0.2.2",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.2"
   },
   "devDependencies": {
-    "@stdlib/assert-is-number": "^0.2.1",
-    "@stdlib/assert-is-string": "^0.2.1",
-    "@stdlib/math-base-special-sqrt": "^0.2.1",
-    "@stdlib/string-from-code-point": "^0.2.1",
+    "@stdlib/assert-is-number": "^0.2.2",
+    "@stdlib/assert-is-string": "^0.2.2",
+    "@stdlib/math-base-special-sqrt": "^0.2.2",
+    "@stdlib/string-from-code-point": "^0.2.2",
     "proxyquire": "^2.0.0",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",

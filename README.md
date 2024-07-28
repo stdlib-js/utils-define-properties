@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import defineProperties from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-properties@deno/mod.js';
+import defineProperties from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-properties@v0.2.2-deno/mod.js';
 ```
 
 #### defineProperties( obj, properties )
@@ -101,7 +101,7 @@ The `properties` parameter is an `object` whose own enumerable property values a
 <!-- eslint no-undef: "error", no-restricted-syntax: "off" -->
 
 ```javascript
-import defineProperties from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-properties@deno/mod.js';
+import defineProperties from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-properties@v0.2.2-deno/mod.js';
 
 function Person( name ) {
     if ( !(this instanceof Person) ) {

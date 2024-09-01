@@ -39,7 +39,7 @@
   "dependencies": {
     "@stdlib/assert-has-define-properties-support": "^0.2.2",
     "@stdlib/assert-is-object": "^0.2.2",
-    "@stdlib/string-format": "^0.2.2",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.2",
     "@stdlib/utils-define-property": "^0.2.4",
     "@stdlib/utils-keys": "^0.2.2",
     "@stdlib/error-tools-fmtprodmsg": "^0.2.2"
